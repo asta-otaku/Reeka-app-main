@@ -56,7 +56,7 @@ const Modal = ({ isOpen, close }) => {
     e.preventDefault();
     setFormSubmitted(true);
 
-    const apiUrl = "https://api.apispreadsheets.com/data/BmnYIdO4bAGKCsIi/";
+    const apiUrl = "https://api.apispreadsheets.com/data/eZ30fBVzLiPh36jk/";
 
     const formData = {
       name,
