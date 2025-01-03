@@ -29,7 +29,7 @@ function App() {
         </header>
         <FirstSection />
         <div className="py-8 md:py-16 space-y-24 px-4 md:px-10 md:space-y-40">
-          <div className="flex justify-between gap-4 flex-col md:flex-row max-w-7xl mx-auto">
+          <div className="flex justify-between gap-4 flex-col lg:flex-row max-w-7xl mx-auto">
             <CustomCard
               tag="Property Management"
               heading="Unified Property Management: Seamlessly Integrate with Airbnb, Booking.com, and More"
@@ -42,7 +42,7 @@ function App() {
               className="w-full max-w-[350px] h-auto hidden"
             />
           </div>
-          <div className="flex justify-between gap-4 flex-col-reverse md:flex-row max-w-7xl mx-auto">
+          <div className="flex justify-between gap-4 flex-col-reverse lg:flex-row max-w-7xl mx-auto">
             <img src={paymentCard} alt="Payment card" />
             <img
               src={paymentResponsive}
@@ -55,7 +55,7 @@ function App() {
               body="Accommodate a global clientele with versatile payment solutions tailored for both Local and international transactions."
             />
           </div>
-          <div className="flex justify-between gap-4 flex-col md:flex-row max-w-7xl mx-auto">
+          <div className="flex justify-between gap-4 flex-col lg:flex-row max-w-7xl mx-auto">
             <CustomCard
               tag="Bookings"
               heading="Seamless Direct Booking: Elevate Your Guest's Experience"

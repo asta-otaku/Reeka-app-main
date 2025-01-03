@@ -105,7 +105,7 @@
 
 .custom-checkbox {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
 }

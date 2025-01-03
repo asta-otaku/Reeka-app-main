@@ -28,10 +28,9 @@ const Modal = ({ isOpen, close }) => {
     { id: 4, label: "Fraud Prevention", checked: false },
     {
       id: 5,
-      label: "Advertising(Getting more customers or guest)",
+      label: "Advertising(Getting more customers or guests)",
       checked: false,
     },
-    { id: 6, label: "Booking.com", checked: false },
   ]);
   const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -65,11 +64,13 @@ const Modal = ({ isOpen, close }) => {
       phoneNumber,
       portfolioSize,
       tools: checkboxInputs1
-        .filter((input) => input.checked)
-        .map((input) => input.label),
+      .filter((input) => input.checked)
+      .map((input) => input.label)
+      .join(", "),
       priorities: checkboxInputs2
-        .filter((input) => input.checked)
-        .map((input) => input.label),
+      .filter((input) => input.checked)
+      .map((input) => input.label)
+      .join(", "),
     };
 
     try {
